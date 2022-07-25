@@ -1,0 +1,26 @@
+$(document).ready(function(){
+    $("#black").click(function(){
+        $(".text").css("backgroundColor","black");
+        $("#textarea").css("backgroundColor","black");
+        $("#textarea").css("color","white");
+        $("#textarea").css("borderColor","white");
+    });
+    $("#blue").click(function(){
+        $(".text").css("backgroundColor","blue");
+        $("#textarea").css("backgroundColor","blue");
+        $("#textarea").css("color","white");
+        $("#textarea").css("borderColor","white");
+    });
+    $("#green").click(function(){
+        $(".text").css("backgroundColor","green");
+        $("#textarea").css("backgroundColor","green");
+        $("#textarea").css("color","black");
+        $("#textarea").css("borderColor","black");
+    });
+    $("#yellow").click(function(){
+        $(".text").css("backgroundColor","yellow");
+        $("#textarea").css("backgroundColor","yellow");
+        $("#textarea").css("color","black");
+        $("#textarea").css("borderColor","black");
+    });
+});
